@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        form {
+            background-color: rgb(219, 83, 158);
+            width: 400px;
+            padding: 20px;
+            border-radius: 10px;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            display: inline-block;
+            width: 100px;
+            text-align: right;
+        }
+
+        input,
+        select {
+            width: 200px;
+            padding: 5px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form>
+            <h1>Registration form</h1><br>
+
+            <div>
+                <label>firstname:</label>
+                <input type="text" name="name" placeholder="enter your firstname"><br><br>
+            </div>
+            <div>
+                <label>lastname:</label>
+                <input type="text" name="name" placeholder="enter your lastname"><br><br>
+            </div>
+            <div>
+                <label>dob:</label>
+                <input type="date" name="dob"><br><br>
+            </div>
+            <div>
+                <label>Gender:</label>
+                <label>
+                    <input type="radio" name="Male" id="Male" value="Male">male
+                </label>
+                <label>
+                    <input type="radio" name="Female" id="Female" value="Female">Female
+                </label>
+                <label>
+                    <input type="radio" name="Other" id="Other" value="Other">Other
+                </label>
+                <br><br>
+            </div>
+            <div>
+                <label> Email:</label>
+                <input type="email" name="email" placeholder="enter your email"><br><br>
+            </div>
+            <div>
+                <label> Password:</label>
+                <input type="password" name="password" placeholder="enter your password"><br><br>
+            </div>
+            <div>
+                <label> Phone number:</label>
+                <input type="tel" name="phone" placeholder="enter your phone number"><br><br>
+            </div>
+            <div>
+                <label>Subject</label>
+                <select>
+                    <option> Html</option>
+                    <option>CSS</option>
+                    <option>JavaScript</option>
+                    <option>Python</option>
+                </select>
+                <br><br>
+            </div>
+            <div>
+                <button type="submit" style="background-color :rgb(34, 34, 160);">
+                    <p style="color :rgb(234, 234, 241);">Submit</p>
+                </button>
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
